@@ -24,3 +24,4 @@ for (i in data.edges) {
 };
 
 sigInst.draw();
+sigInst.startForceAtlas2();
