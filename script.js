@@ -24,7 +24,7 @@ $(document).ready(function() {
         svgText = Viva.Graph.svg('text')
             .attr('x', (size/2)+13)
             .attr('y', 5+(20/2))
-            .text(node.id)
+            .text("")
             .attr('fill', '#000000')
             .attr('font-family', 'Helvetica,Arial')
             .attr('font-size', size/2+'px'),
@@ -38,7 +38,7 @@ $(document).ready(function() {
         ui.append(circle);
         ui.append(svgText);
 
-        $(ui).hover(function() { svgText.text(node.data['name']); }, function() { svgText.text(node.id); });
+        $(ui).hover(function() { svgText.text(node.data['name']); }, function() { svgText.text(""); });
 
         return ui;
     })
