@@ -43,7 +43,7 @@ var data = {
 		{"id":"41","name":"Contextual correlates of semantic similarity"},
 		{"id":"42","name":"Ranking the linked data: the case of DBpedia"},
 		{"id":"43","name":"Characteristics of heavily edited objects in OpenStreetMap"},
-		{"id":"44","name":"Towards quality metrics forOpenStreetMap"},
+		{"id":"44","name":"Towards quality metrics for OpenStreetMap"},
 		{"id":"45","name":"Analyzing the spatial-semantic interaction of points of interest in volunteered geographic information"},
 		{"id":"46","name":"Wikipedia link structure and text mining for semantic relation extraction  Towards a huge scale globalweb ontology"},
 		{"id":"47","name":"OpenStreetMap’s growth accelerates"},
